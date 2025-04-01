@@ -5,7 +5,7 @@
 A responsive e-commerce website for **Aushadham Organics**, showcasing handmade natural remedies like Shikakai powder, herbal shampoos, and organic soaps.
 
 ## 🌿 Live Demo
-[View Live Site](#) *(Replace with your deployed link)*
+[[View Live Site]( https://knsaishraddha.github.io/-capstone-project---aushadham/)](#)
 
 ## 🚀 Features
 - **Fully responsive** (mobile, tablet, desktop)
