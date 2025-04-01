@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Aushadham Organics</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header (Same as index.html) -->
+    <header class="main-header">
+        <!-- Copy header from index.html -->
+    </header>
+
+    <!-- Products Hero -->
+    <section class="page-hero products-hero">
+        <div class="container">
+            <h1>Our Products</h1>
+            <p>Pure Ayurvedic formulations for complete wellness</p>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="product-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="tab-btn active" data-category="all">All Products</button>
+                <button class="tab-btn" data-category="hair">Hair Care</button>
+                <button class="tab-btn" data-category="skin">Skin Care</button>
+                <button class="tab-btn" data-category="bath">Bath & Body</button>
+                <button class="tab-btn" data-category="herbs">Herbal Powders</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-main">
+        <div class="container">
+            <div class="product-actions">
+                <div class="search-box">
+                    <input type="text" placeholder="Search products...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="sort-options">
+                    <label for="sort">Sort by:</label>
+                    <select id="sort">
+                        <option value="popular">Most Popular</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="newest">Newest First</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Hair Care Products -->
+                <div class="product-card" data-category="hair">
+                    <div class="product-badge">Bestseller</div>
+                    <img src="assets/images/products/shikakai-powder.jpg" alt="Shikakai Powder">
+                    <div class="product-info">
+                        <h3>Shikakai Hair Wash Powder</h3>
+                        <p class="product-desc">Traditional herbal powder for hair cleansing and strengthening</p>
+                        <div class="product-meta">
+                            <span class="price">₹199</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                (128)
+                            </span>
+                        </div>
+                        <button class="btn btn-add-to-cart">Add to Cart</button>
+                        <a href="#" class="quick-view">Quick View</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="hair">
+                    <img src="assets/images/products/herbal-shampoo.jpg" alt="Herbal Shampoo">
+                    <div class="product-info">
+                        <h3>Herbal Hair Shampoo</h3>
+                        <p class="product-desc">Chemical-free shampoo with Amla, Bhringraj and Neem</p>
+                        <div class="product-meta">
+                            <span class="price">₹249</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                (94)
+                            </span>
+                        </div>
+                        <button class="btn btn-add-to-cart">Add to Cart</button>
+                        <a href="#" class="quick-view">Quick View</a>
+                    </div>
+                </div>
+
+                <!-- Skin Care Products -->
+                <div class="product-card" data-category="skin">
+                    <div class="product-badge">New</div>
+                    <img src="assets/images/products/face-pack.jpg" alt="Herbal Face Pack">
+                    <div class="product-info">
+                        <h3>Multani Mitti Face Pack</h3>
+                        <p class="product-desc">Clay mask with rose and sandalwood for glowing skin</p>
+                        <div class="product-meta">
+                            <span class="price">₹179</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                (56)
+                            </span>
+                        </div>
+                        <button class="btn btn-add-to-cart">Add to Cart</button>
+                        <a href="#" class="quick-view">Quick View</a>
+                    </div>
+                </div>
+
+                <!-- Bath & Body Products -->
+                <div class="product-card" data-category="bath">
+                    <img src="assets/images/products/ubtan.jpg" alt="Ubtan Bath Powder">
+                    <div class="product-info">
+                        <h3>Ubtan Bath Powder</h3>
+                        <p class="product-desc">Exfoliating and brightening body powder with turmeric</p>
+                        <div class="product-meta">
+                            <span class="price">₹179</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                (87)
+                            </span>
+                        </div>
+                        <button class="btn btn-add-to-cart">Add to Cart</button>
+                        <a href="#" class="quick-view">Quick View</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="bath">
+                    <img src="assets/images/products/organic-soap.jpg" alt="Neem-Tulsi Soap">
+                    <div class="product-info">
+                        <h3>Neem-Tulsi Soap</h3>
+                        <p class="product-desc">Antibacterial soap for acne-prone skin</p>
+                        <div class="product-meta">
+                            <span class="price">₹129</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                (112)
+                            </span>
+                        </div>
+                        <button class="btn btn-add-to-cart">Add to Cart</button>
+                        <a href="#" class="quick-view">Quick View</a>
+                    </div>
+                </div>
+
+                <!-- Herbal Powders -->
+                <div class="product-card" data-category="herbs">
+                    <img src="assets/images/products/triphala.jpg" alt="Triphala Powder">
+                    <div class="product-info">
+                        <h3>Triphala Powder</h3>
+                        <p class="product-desc">Digestive and detoxifying herbal formula</p>
+                        <div class="product-meta">
+                            <span class="price">₹229</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                (73)
+                            </span>
+                        </div>
+                        <button class="btn btn-add-to-cart">Add to Cart</button>
+                        <a href="#" class="quick-view">Quick View</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="herbs">
+                    <img src="assets/images/products/ashwagandha.jpg" alt="Ashwagandha Powder">
+                    <div class="product-info">
+                        <h3>Ashwagandha Powder</h3>
+                        <p class="product-desc">Adaptogenic herb for stress relief and vitality</p>
+                        <div class="product-meta">
+                            <span class="price">₹259</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                (68)
+                            </span>
+                        </div>
+                        <button class="btn btn-add-to-cart">Add to Cart</button>
+                        <a href="#" class="quick-view">Quick View</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="hair">
+                    <img src="assets/images/products/hair-oil.jpg" alt="Herbal Hair Oil">
+                    <div class="product-info">
+                        <h3>Ayurvedic Hair Oil</h3>
+                        <p class="product-desc">Growth promoting oil with Bhringraj and Amla</p>
+                        <div class="product-meta">
+                            <span class="price">₹279</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                (141)
+                            </span>
+                        </div>
+                        <button class="btn btn-add-to-cart">Add to Cart</button>
+                        <a href="#" class="quick-view">Quick View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Quick View Modal -->
+    <div class="product-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-product-view">
+                <!-- Content will be loaded dynamically via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer (Same as index.html) -->
+    <footer class="main-footer">
+        <!-- Copy footer from index.html -->
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/cart.js"></script>
+    <script src="assets/js/products.js"></script>
+</body>
+</html>
